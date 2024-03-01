@@ -1,0 +1,601 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+
+
+
+*{
+    font-family: Almarai,Helvetica,Arial,Lucida,sans-serif;;
+   
+    text-transform: uppercase;
+
+   
+}
+body{
+     scroll-behavior: smooth;
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+    .custom-shape-divider-bottom-1708602288 svg {
+        width: calc(100% + 1.3px);
+        height: 90px;
+
+        }
+        .rownd-4{
+            display: flex;
+            flex-direction: column-reverse;
+        }
+        
+    
+    .landing-2 .text p{ 
+        font-size: 16px;
+    
+        }
+        .card-1{
+            display: flex;
+          
+        }
+        .map .mop{
+            width: 100%;
+            height: 200px;
+            border: #81b1fa 3px solid;
+            border-radius: 10px;
+            }
+            .landing-2 .rowind-3{
+                display: flex;
+                flex-direction: column-reverse;
+            }
+            .footer-sid-2{
+                flex-wrap: wrap;
+            }
+            
+            
+
+            
+
+    }
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+
+}
+
+
+
+/*================start navbat =====================================*/
+
+.logo{
+    width: 90px;
+    
+}
+nav{
+    position: sticky;
+    left: 0;
+    top: 0;
+    z-index: 99999999999;
+     background: rgb(13,45,66);
+     
+
+ 
+}
+.navbar .navbar-toggler:focus{
+
+    box-shadow: none;
+
+}
+.navbar .navbar-toggler svg{
+    color: #81b1fa;
+}
+
+.collapse ul li a{
+    color: #fff;
+    font-weight: 600;
+    margin-right: auto;
+    margin-left: 20px;
+    transition: all .42s;
+   
+}
+.collapse ul li a:hover{
+
+  border-bottom:2px  solid #fff;
+  
+}
+.collapse ul li  .active{
+  border-bottom:2px  solid #fff;
+  color: blue;
+
+}
+
+/*================end navbat =====================================*/
+
+
+/*================star heom =====================================*/
+.landing-heom{
+    background: rgb(13,45,66);
+    padding-bottom: 20px;
+    position:relative;
+    
+    
+
+}
+.landing-heom svg{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+}
+.sid-l{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    color: #fff;
+    padding-top: 30px;
+    text-wrap: wrap;
+
+
+
+}
+.sid-l span{
+    color: #81b1fa;
+}
+.sid-l h1{
+    font-weight: 500;
+    width: 90%;
+    line-height: 50px;
+    
+    
+    
+}
+.sid-l .btn{
+    border-radius: 10px;
+    background-color: #81b1fa;
+    color: #fff;
+    margin-top: 20px;
+    font-weight: 400;
+    transition: all .42s;
+    font-weight: 400;
+}
+.sid-l .btn:hover{
+    background-color: #fbfbfb;
+    color: #0d2d42;
+}
+
+/*================srart waves =====================================*/
+ 
+.custom-shape-divider-bottom-1708602288 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+    
+    
+}
+
+.custom-shape-divider-bottom-1708602288 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+ 
+    
+}
+
+.custom-shape-divider-bottom-1708602288 .shape-fill {
+    fill: #FFFFFF;
+}
+
+/*================end waves =====================================*/
+
+
+
+
+
+
+
+/*================end heom =====================================*/
+
+
+
+
+
+
+
+/*================end landing-2 =====================================*/
+  
+
+
+
+ .container .text-1 h1{
+    font-weight: 600;
+    color: #81b1fa;
+    font-size: 30px;
+    text-align: center;
+     position: relative; 
+     text-align: center;
+
+}
+
+
+
+   
+
+ .container  .text-1 h1::after{
+    content: '';
+    width: 60px;
+    height: 2px;
+    background-color: #435774;
+    left: 50%;
+    bottom: -20px;
+    transform: translatex(-50%);
+    position: absolute;
+}
+
+ .container .text-1 span{
+    color: #435774;
+}
+
+.landing-2 .text h1{
+    color: #81b1fa;
+    font-weight: 600;
+    font-size: 30px;
+    padding-bottom: 30px;
+    text-align: right;
+}
+
+
+.landing-2 .text p{
+    color: #908e9b;
+    font-weight: 300;
+    font-size: 20px;
+    text-align: right;
+    line-height: 32px;
+
+ 
+    
+
+}
+.landing-2 .colm-text{
+    display: flex;
+
+}
+
+
+.text{
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+    align-items: flex-end;
+    
+}
+
+
+
+
+
+/*================end landing-2 =====================================*/
+
+
+
+
+
+/*================start landing-3 =====================================*/
+
+.card-1{
+    display: flex;
+  
+}
+
+
+.box{
+     border: #908e9b solid 1px;
+    border-radius: 30px;
+    height: auto;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0,0.2);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: end;
+    padding: 20px;
+
+
+
+}
+
+.text-card{
+    display: flex;
+    align-items: center;
+}
+
+.landing-3 .text-card h1{
+    text-align: right;
+    font-size: 20px;
+    font-weight: 500;
+    padding-right: 15px;
+  
+
+}
+.landing-3  h3{
+    font-size: 17px;
+    text-align: end;
+    width: 500px;
+    font-weight: 200;
+    color: #908e9b;
+    width: auto;
+    margin-top: 20px;
+    line-height: 32px;
+}
+.landing-3 .text-card svg{
+    text-align: center;
+    color: #81b1fa;
+    font-size: 25px;
+    font-weight: 100;
+   
+}
+.landing-3 .text-card .icon{
+    text-align: center;
+    padding: 15px;
+    border-radius: 50%;
+    background-color: #f6f1ff;
+    
+ 
+}
+
+
+section{
+    color: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #0d2d42;
+
+
+    
+
+
+}
+
+.hadf{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row-reverse;
+
+}
+.bottom{
+    display: flex;
+    justify-content: center;
+    background-color: #81b1fa;
+    border-radius: 30px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    transition: all 42.s;
+    cursor: pointer;
+    
+    
+}
+.bottom:hover{
+    background-color: #fff;
+    color: #0d2d42;
+    transition: all .42s;
+}
+.hadf h1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    padding: 30px;
+
+}
+.bottom h3{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 200;
+    padding-right: 10px;
+    margin: 10px;
+
+    
+
+}
+.bottom i svg{
+    font-size: 40px;
+}
+    
+
+
+/*================end landing-3 =====================================*/
+
+
+
+
+/*================start landing-4 =====================================*/
+
+
+form .inputbox{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+    text-align: right;
+}
+
+form .inputbox input,
+form .inputbox textarea
+{
+    width: 100%;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 10px 0;
+    border: solid 1px #e5e7fe;
+    border-radius: 10px;
+    text-align: end;
+    outline-color: #81b1fa;
+    outline-width: 1px;
+    font-weight: 500;
+    
+}
+
+form .inputbox input:hover,
+form .inputbox textarea:hover{
+    
+    border: solid 1px #81b1fa;
+
+     
+}
+
+form .inputbox span{
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 10px 0;
+
+}
+
+form .inputbox input[type="submit"]{
+    background-color: #81b1fa;
+    text-align: center;
+    cursor: progress;
+    border: none;
+    border-radius: 30px;
+    font-size: 16;
+    font-weight: 600;
+    transition: all .42s;
+    cursor: pointer;
+}
+form .inputbox input[type="submit"]:hover{
+    background-color: #0d2d42;
+    color: #fff;
+
+}
+
+   
+
+ 
+ 
+
+.map .mop{
+    width: 100%;
+    height: 650px;
+    border: #81b1fa 3px solid;
+    border-radius: 10px;
+}
+
+
+/*================end landing-4 =====================================*/
+
+
+/*================start footer =====================================*/
+footer{
+    background-color: #0d2d42;
+    margin: 0;
+    padding: 0;
+    
+}
+.footer-sid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+    color: #fff;
+    margin: 40px;
+}
+.footer-sid h1{
+    font-size: 20px;
+    font-weight: 500;
+    margin: 20px;
+}
+.footer-sid svg
+{
+    margin: 10px;
+    color: #81b1fa;
+    background-color: #fff; 
+    font-size: 20px;
+    border-radius: 50%;
+    padding: 10px;
+    transition: all 42.s;
+    cursor: pointer;
+}
+.footer-sid svg:hover{
+    background-color: #81b1fa;
+    color:#fff;
+   
+}
+.logoo{
+    width: 170px;
+}
+.footer-sid-2{
+    display: flex;
+    margin: 40px;
+    color: #fff;
+    text-align: right;
+    flex-direction: row-reverse;
+}
+
+footer h4{
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 200;
+    text-transform: capitalize;
+}
+body .up{
+    position: fixed;
+    background-color:#81b1fa;
+    width: 50px;
+    height: 50px;
+    bottom: 100px;
+    left: 10px;
+    color: #ffffff ;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    border-radius: 50%;
+    transition: all 42.s;
+    z-index: 9999999999999;
+
+}
+body .up:hover{
+    color: #ffffff;
+    background-color: #0d2d42;
+}
+
+body .wh{
+    position: fixed;
+    background-color:#81fa91;
+    width: 50px;
+    height: 50px;
+    bottom: 100px;
+    right: 10px;
+    color: #ffffff ;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    border-radius: 50%;
+    transition: all 42.s;
+    z-index: 9999999999999;
+}
+body .wh:hover{
+    color: #fff;
+    transform: scale(1.1);
+}
+
+
+/*================end footer =====================================*/
